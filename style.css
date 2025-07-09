@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+h1,
+.nav:hover,
+.price,
+span{
+  color: orangered;
+}
+
+.feature-type,
+.feature-ex{
+  color: black;
+  font-weight: bold;
+}
+.button{
+  background-color: orange;
+}
+.button:hover{
+  box-shadow: 0px 0px 10px orange;
+}
+.feature-one:hover,
+.feature-two:hover,
+.feature-three:hover{
+  box-shadow: 0px 0px 15px orange;
+  cursor: pointer;
+}
+.input:focus{
+  outline: none;
+  border-color: orange;
+}
+.feature-one{
+  background-image: url(Images/featue\ one.jpeg);
+}
+.feature-three{
+  background-image: url(Images/feature\ three.jpeg);
+}
+.feature-two{
+  background-image: url(Images/featue\ two.jpeg);
+}
